@@ -1,4 +1,4 @@
-# Twitter Follower Scraper
+# Twitter Follower Scraper 🐍
 A twitter follower scraper, completely open source and ready to go.
 
 # **Features:**
