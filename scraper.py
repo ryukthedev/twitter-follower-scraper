@@ -7,7 +7,7 @@ from ui import UI
 class Scraper:
 
 	def __init__(self) -> None:
-		self.headers: list = {'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'}
+		self.headers: dict = {'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'}
 		self.scraped: int = 0
 
 	def __save_results(self, users: list) -> None:
